@@ -1,0 +1,16 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+}
+
+.other-nav-items {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+.other-nav-items h1{
+    margin: 0.3rem;
+}

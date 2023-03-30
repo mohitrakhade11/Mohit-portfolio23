@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=M+PLUS+Rounded+1c:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('../root.css');
+:root {
+    --bg-color: #0e1117;
+    --clr-gray: rgb(150, 155, 165);
+    --clr-skyblue: #64FFDA;
+    --dim-font-clr:#D0DEFF;
+    --font-robo: 'M PLUS Rounded 1c', sans-serif;
+    --font-primary: 'Poppins', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    overflow: hidden;
+}
+
+.layout{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+}
+
+.main-site{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--bg-color);
+}
+
+.home-header{
+    height: 3rem;
+    /* background-color: white; */
+    color: #64FFDA;
+}
+.sidebar{
+    height: 100rem;
+    position: sticky;
+    width: 2vw;
+    background-color: var(--bg-color);
+}
+
+.main-web-area{
+    background-color: var(--bg-color);
+    height: 95vh;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* main h1{
+    margin: 5rem;
+    color: white;
+} */
+
+
+
+/* media queries */
+
+.sidebar{
+    width: 2rem;
+}
+
+
+/* main intro */
+
+.main-intro{
+    /* width: 80vw;
+    height: 100vh; */
+    padding:18rem 15rem;
+    margin-top: 170rem;
+    height: 100%;
+    display: block;
+}
+.section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.my-name {
+    color: white;
+    margin: 0%;
+    font-family: var(--font-robo);
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    color: var(--clr-skyblue);
+}
+
+
+.name {
+    color: white;
+    font-size: 7rem;
+    margin: -6px;
+    background: -webkit-linear-gradient(left, #4BA5FF, #6f2eb6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-family: var(--font-primary);
+    /* width: 40rem; */
+}
+
+.intro {
+    color: var(--clr-gray);
+    font-size: 2rem;
+    margin: 0%;
+    font-family: var(--font-primary);
+}
+
+.bio {
+    font-size: 1rem;
+    color: var(--dim-font-clr);
+    /* width: 10rem; */
+    text-align: left;
+    font-family: var(--font-primary);
+}
+
+
+/* about me */
+
+.about-me {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.small-about {
+    font-size: 1rem;
+    color: white;
+    font-family: var(--font-primary);
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+}
+.about-me .index {
+    color: var(--clr-skyblue);
+    font-family: var(--font-robo);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 7px;
+}
+.about-me-discr {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 5px;
+}
+.table {
+    margin: 0%;   
+    font-size: 0.4rem;
+    font-family: var(--font-primary);
+}
+table span{
+    color: var(--clr-skyblue);
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.table table {
+    text-align: left;
+}
+
+table,
+th,
+td {
+    padding: 14px;
+    color: #CCD6F6;
+    font-size: 0.9rem;
+    font-family: var(--font-robo);
+}
+
+.avatar img {
+    border-radius: 50%;
+    box-shadow: rgba(42, 41, 41, 0.25) 0px 54px 55px, rgba(41, 41, 41, 0.12) 0px -12px 30px, rgba(40, 39, 39, 0.12) 0px 4px 6px, rgba(51, 51, 51, 0.17) 0px 12px 13px, rgba(85, 84, 84, 0.09) 0px -3px 5px;  border-radius: 50%;
+    margin: 2rem;
+    width: 250px;
+}
+
+.about-me-title {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.about-me h1 {
+    color: white;
+    font-family: var(--font-primary);
+    font-size: 2rem;
+    margin: 0%;
+}
+
+.about-me .bar {
+    display: inline;
+    height: 1px;
+    width: 10rem;
+    margin-left: 1rem;
+    background-color: var(--clr-gray);
+}
+
+/*feat project cards */
+.feat-cards{
+    display: block;
+    margin: -13rem 1rem;
+}
+/* other cards */
+.other-cards{
+    display: block;
+}
+
+.main-web-area::-webkit-scrollbar {
+    width: 0.5px;
+  }
+  .main-web-area::-webkit-scrollbar-track {
+    box-shadow: transparent;
+  }
+   
+  .main-web-area::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+@media screen and (max-width: 600px){
+
+    /* main intro */
+
+    .main-intro{
+        /* width: 80vw;
+        height: 100vh; */
+        padding:10rem 0rem;
+        margin-top: 210rem;
+        height: 100%;
+        display: block;
+    }
+
+    .my-name {
+        color: white;
+        margin: 0%;
+        font-family: var(--font-robo);
+        font-size: 0.7rem;
+        letter-spacing: 3px;
+        color: var(--clr-skyblue);
+    }
+
+    .name {
+        color: white;
+        font-size: 2.6rem;
+        margin: -1px;
+    }
+
+    .intro {
+        color: var(--clr-gray);
+        font-size: 1.2rem;
+    }
+    .bio {
+        font-size: 0.8rem;
+    }
+    /* about me */
+    .about-me h1 {
+        color: white;
+        font-family: var(--font-primary);
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0%;
+    }
+    .about-me {
+        margin: auto;
+        width: 98%;
+    }
+
+    .about-me .index {
+        color: var(--clr-skyblue);
+        font-family: var(--font-robo);
+        font-size: 0.7rem;
+    }
+
+    .small-about {
+        font-size: 0.8rem;
+        color: white;
+        font-family: var(--font-primary);
+        margin: 10px;
+        padding: 1px;
+    }
+
+    .about-me .bar {
+        display: inline;
+        height: 2px;
+        width: 10rem;
+        margin-left: 2rem;
+        background-color: var(--clr-gray);
+    }    
+    .about-me-discr {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        padding: 0px;
+        text-align: left;
+    }
+    .avatar img {
+        border-radius: 50%;
+        box-shadow: rgba(42, 41, 41, 0.25) 0px 54px 55px, rgba(41, 41, 41, 0.12) 0px -12px 30px, rgba(40, 39, 39, 0.12) 0px 4px 6px, rgba(51, 51, 51, 0.17) 0px 12px 13px, rgba(85, 84, 84, 0.09) 0px -3px 5px;  border-radius: 50%;
+        margin: 2rem;
+        width: 200px;
+    }
+    .other-cards{
+        margin: -23rem 1rem;
+    }
+}

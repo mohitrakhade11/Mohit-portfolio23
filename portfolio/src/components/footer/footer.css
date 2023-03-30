@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #0e1117;
+    --clr-gray: rgb(150, 155, 165);
+    --clr-skyblue: #64FFDA;
+    --dim-font-clr:#D0DEFF;
+    --font-robo: 'M PLUS Rounded 1c', sans-serif;
+    --font-primary: 'Poppins', sans-serif;
+}
+.footer{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+.footer-title{
+    color: var(--clr-skyblue);
+    font-size: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        margin-top: 23rem;
+        margin-bottom: 1rem;
+    }
+}
