@@ -28,10 +28,10 @@ const Home = () => {
                 <h1 className="name">Mohit Rakhade</h1>
                 <h1 className="intro">I build things for the web.</h1>
                 <p className="bio">
-                  I’m a software engineer specializing in building (and
-                  occasionally designing) exceptional digital experiences.
-                  Currently, I’m focused on building accessible, human-centered
-                  products at Upstatement.
+                 In order to kick-start my career, 
+                I am looking for a job of a web developer, 
+                since that’s what I’ve been doing already for three years.
+                Designing websites for friends, developing simple WEB apps for local store with the help of my collage friends.
                 </p>
               </div>
             </div>
@@ -43,15 +43,18 @@ const Home = () => {
                     <div className="about-me-discr">
                         <div>
                             <p className="small-about">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                Sunt maxime error iusto ducimus id eos mollitia ab laboriosam molestias dolorem?
+                                Hello! My name is <b>Mohit</b> and I enjoy creating things that live on the internet.
+                             My interest in web development started back in 2019 when I was pursuing <b>BCA(Bachelors's in Computer Application)</b> I 
+                             tried building webpages; turns out that taught me a lot about <b> HTML CSS & JavaScript</b>.
                             </p>
                             <p className="small-about">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nisi ullam nesciunt a natus, quasi in illum ex corrupti molestias!
+                                 later I Started learning <b>.NET</b> simultaneously i was also doing an Internship at <b>SAN developers</b> which 
+                                I carried on for 6 months.
                             </p>
                             <p className="small-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, aliquam!
                                 <br />
-                                Here are a few technologies I’ve been working with recently:</p>
+                           fast forword to today i'm building Web Apps with <b>MERN</b> Stack.</p>
+                                 </p>
                             <div className="table">
                                 <table>
                                     <tr>
