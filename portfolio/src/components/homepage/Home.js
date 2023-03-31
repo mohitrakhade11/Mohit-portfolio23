@@ -57,17 +57,17 @@ const Home = () => {
                                  </p>
                             <div className="table">
                                 <table>
-                                    <tr>
+                                   <tr>
                                         <th><span><BiRightArrow/></span> JavaScript (ES6+)</th>
-                                        <th><span><BiRightArrow/></span> typescript</th>
+                                        <th><span><BiRightArrow/></span> React-JS</th>
                                     </tr>
                                     <tr>
-                                        <th><span><BiRightArrow/></span> React</th>
-                                        <th><span><BiRightArrow/></span> Eleventy</th>
+                                        <th><span><BiRightArrow/></span> Mango-DB</th>
+                                        <th><span><BiRightArrow/></span> Node-JS</th>
                                     </tr>
-                                    <tr>
-                                        <th><span><BiRightArrow/></span> Node.js</th>
-                                        <th><span><BiRightArrow/></span> WordPress</th>
+                                    <tr> 
+                                        <th><span><BiRightArrow/></span> Express-JS</th>
+                                        <th><span><BiRightArrow/></span> Pure-CSS</th>
                                     </tr>
                                 </table>
                             </div>
