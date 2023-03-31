@@ -143,6 +143,10 @@ body{
     padding: 5px;
     text-align: left;
 }
+.small-about b{
+   color: var(--clr-skyblue);
+}
+
 .about-me .index {
     color: var(--clr-skyblue);
     font-family: var(--font-robo);
@@ -177,7 +181,8 @@ table span{
 table,
 th,
 td {
-    padding: 14px;
+    cursor: pointer;
+    padding: 7px;
     color: #CCD6F6;
     font-size: 0.9rem;
     font-family: var(--font-robo);
