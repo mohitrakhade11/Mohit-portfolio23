@@ -8,7 +8,7 @@
 }
 .footer{
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     display: block;
 }
 .footer-title{
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 600px) {
     .footer{
-        margin-top: 23rem;
-        margin-bottom: 1rem;
+        margin-top: 25rem;
+        margin-bottom: 2rem;
     }
 }
