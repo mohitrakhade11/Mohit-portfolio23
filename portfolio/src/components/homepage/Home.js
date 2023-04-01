@@ -41,7 +41,7 @@ const Home = () => {
                         <h1>About me</h1><span className="bar"></span>
                     </div>
                     <div className="about-me-discr">
-                        <div>
+                        <div className="details">
                             <p className="small-about">
                                 Hello! My name is <b>Mohit</b> and I enjoy creating things that live on the internet.
                              My interest in web development started back in 2019 when I was pursuing <b>BCA(Bachelors's in Computer Application)</b> I 
@@ -54,7 +54,7 @@ const Home = () => {
                             <p className="small-about">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, aliquam!
                                 <br />
                            fast forword to today i'm building Web Apps with <b>MERN</b> Stack.</p>
-                                 </p>
+                           <div/>
                             <div className="table">
                                 <table>
                                    <tr>

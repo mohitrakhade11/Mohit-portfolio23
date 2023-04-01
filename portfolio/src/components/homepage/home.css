@@ -92,7 +92,7 @@ body{
     margin: 0%;
     font-family: var(--font-robo);
     font-size: 0.8rem;
-    letter-spacing: 5px;
+    letter-spacing: 1px;
     color: var(--clr-skyblue);
 }
 
@@ -162,6 +162,10 @@ body{
     align-content: flex-start;
     flex-wrap: nowrap;
     padding: 5px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
 }
 .table {
     margin: 0%;   

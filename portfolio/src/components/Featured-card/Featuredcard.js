@@ -22,10 +22,9 @@ const Featuredcard = () => {
             <h3>Featured Project</h3>
             <h1>PaperBoat CSS-Framework</h1>
             <p className="card-dis">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-              dolor quaerat aspernatur tempore eius, suscipit laudantium ad nisi
-              voluptas molestiae quasi accusantium, dignissimos, unde itaque
-              dolores ducimus. Reprehenderit, debitis delectus?.
+            PaperBoat-U! Provides a minimal setup of styles for a fast and clean starting point.
+             It's not about a UI framework. Specially designed for better performance and higher productivity
+             with fewer properties to reset resulting in cleaner code.
             </p>
             <p className="links">React VS-Code Pure-CSS</p>
             <div className="link2">
@@ -48,10 +47,9 @@ const Featuredcard = () => {
             <h3>Featured Project</h3>
             <h1>paperboat Store</h1>
             <p className="flip-card-dis">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-              dolor quaerat aspernatur tempore eius, suscipit laudantium ad nisi
-              voluptas molestiae quasi accusantium, dignissimos, unde itaque
-              dolores ducimus. Reprehenderit, debitis delectus?.
+            A web app for Buying Books, greetings and minimal photo frames. 
+            View top sold products, sort according your preferences,
+            and detailed description about each product. add to wishlist and add to cart.
             </p>
             <p className="links">React VS-Code Pure-CSS</p>
             <div className="link2">
